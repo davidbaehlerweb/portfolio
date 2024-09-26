@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: "#ff8901",
         secondary: "#fb923c",
+        darkBlue: '#0a1a2b', // Vous pouvez ajuster le code hexadécimal pour le dark blue souhaité
       },
       container: {
         center: true,
