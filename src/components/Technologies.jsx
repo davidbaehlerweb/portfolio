@@ -10,34 +10,34 @@ const Technologies = () => {
       <h1 className='my-20 text-center text-4xl'>Technologies</h1>
         <div className="flex flex-wrap items-center justify-center gap-4">
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiReactjsLine className='text-7xl text-cyan-400'/>
+                <RiReactjsLine className='text-4xl text-cyan-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiAxios className='text-7xl'/>
+                <SiAxios className='text-4xl'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandMysql className='text-7xl text-cyan-400'/>
+                <TbBrandMysql className='text-4xl text-cyan-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiLaravel className='text-7xl text-red-400'/>
+                <SiLaravel className='text-4xl text-red-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className='text-7xl text-green-400'/>
+                <FaNodeJs className='text-4xl text-green-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaPhp className='text-7xl text-blue-400'/>
+                <FaPhp className='text-4xl text-blue-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiTailwindcss className='text-7xl text-cyan-400'/>
+                <SiTailwindcss className='text-4xl text-cyan-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaHtml5 className='text-7xl text-orange-400'/>
+                <FaHtml5 className='text-4xl text-orange-400'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaBootstrap className='text-7xl text-darkBlue'/>
+                <FaBootstrap className='text-4xl text-darkBlue'/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaCss3 className='text-7xl text-cyan-400'/>
+                <FaCss3 className='text-4xl text-cyan-400'/>
             </div>
         </div>
     </div>
