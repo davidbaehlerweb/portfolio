@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {HERO_CONTENT} from '../constants'
+import profilePic from '../assets/photo.png';
+import ProfileImage from './ProfileImage';
 const Hero = () => {
   return (
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
@@ -10,6 +12,17 @@ const Hero = () => {
                 lg:text-8xl'>
                 David Baehler
                 </h1>
+                <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                    Full Stack Developer
+                </span>
+                <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>
+                    {HERO_CONTENT}
+                </p>
+            </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-8">
+            <div className="flex justify-center">
+                <ProfileImage/>
             </div>
         </div>
       </div>
