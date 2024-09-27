@@ -12,8 +12,9 @@ const Navbar = () => {
             <Logo/>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin/>
-            <FaGithub/>
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><FaLinkedin/></a>
+            <a href="https://github.com/davidbaehlerweb/"><FaGithub/></a>
+            
         </div>
     </nav>
   )
